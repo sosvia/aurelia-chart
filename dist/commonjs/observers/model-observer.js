@@ -8,7 +8,7 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var _aureliaFramework = require("aurelia-framework");
+var _aureliaFramework = require('aurelia-framework');
 
 var ModelObserver = (function () {
     function ModelObserver(observerLocator) {
@@ -47,9 +47,7 @@ var ModelObserver = (function () {
         this.observerLocator = observerLocator;
     }
 
-    var _ModelObserver = ModelObserver;
-
-    _createClass(_ModelObserver, [{
+    _createClass(ModelObserver, [{
         key: "_getObjectType",
         value: function _getObjectType(obj) {
             if (obj && typeof obj === "object" && obj.constructor == new Date().constructor) return "date";
@@ -91,6 +89,7 @@ var ModelObserver = (function () {
         }
     }]);
 
+    var _ModelObserver = ModelObserver;
     ModelObserver = (0, _aureliaFramework.inject)(_aureliaFramework.ObserverLocator)(ModelObserver) || ModelObserver;
     return ModelObserver;
 })();

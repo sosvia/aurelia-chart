@@ -50,9 +50,7 @@ System.register(["aurelia-framework"], function (_export) {
                     this.observerLocator = observerLocator;
                 }
 
-                var _ModelObserver = ModelObserver;
-
-                _createClass(_ModelObserver, [{
+                _createClass(ModelObserver, [{
                     key: "_getObjectType",
                     value: function _getObjectType(obj) {
                         if (obj && typeof obj === "object" && obj.constructor == new Date().constructor) return "date";
@@ -94,6 +92,7 @@ System.register(["aurelia-framework"], function (_export) {
                     }
                 }]);
 
+                var _ModelObserver = ModelObserver;
                 ModelObserver = inject(ObserverLocator)(ModelObserver) || ModelObserver;
                 return ModelObserver;
             })();

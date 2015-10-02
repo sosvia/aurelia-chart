@@ -46,9 +46,7 @@ define(["exports", "aurelia-framework"], function (exports, _aureliaFramework) {
             this.observerLocator = observerLocator;
         }
 
-        var _ModelObserver = ModelObserver;
-
-        _createClass(_ModelObserver, [{
+        _createClass(ModelObserver, [{
             key: "_getObjectType",
             value: function _getObjectType(obj) {
                 if (obj && typeof obj === "object" && obj.constructor == new Date().constructor) return "date";
@@ -90,6 +88,7 @@ define(["exports", "aurelia-framework"], function (exports, _aureliaFramework) {
             }
         }]);
 
+        var _ModelObserver = ModelObserver;
         ModelObserver = (0, _aureliaFramework.inject)(_aureliaFramework.ObserverLocator)(ModelObserver) || ModelObserver;
         return ModelObserver;
     })();
