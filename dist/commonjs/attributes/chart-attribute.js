@@ -16,9 +16,9 @@ var _aureliaFramework = require('aurelia-framework');
 
 var _observersModelObserver = require("../observers/model-observer");
 
-var _chartjs = require("chartjs");
+var _nnnickChartJs = require("nnnick/Chart.js");
 
-var _chartjs2 = _interopRequireDefault(_chartjs);
+var _nnnickChartJs2 = _interopRequireDefault(_nnnickChartJs);
 
 var ChartAttribute = (function () {
   var _instanceInitializers = {};
@@ -94,7 +94,7 @@ var ChartAttribute = (function () {
     value: function createChart() {
       var context2d = this.element.getContext("2d");
       this.convertAllDataToNumeric(this.data);
-      this._activeChart = new _chartjs2["default"](context2d)[this.type](this.data, this.nativeOptions);
+      this._activeChart = new _nnnickChartJs2["default"](context2d)[this.type](this.data, this.nativeOptions);
     }
   }, {
     key: "subscribeToChanges",

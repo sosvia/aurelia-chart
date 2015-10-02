@@ -1,6 +1,6 @@
 import {inject, customElement, useView, bindable} from 'aurelia-framework'
 import {ModelObserver} from "../observers/model-observer"
-import Chart from "chartjs"
+import Chart from "nnnick/Chart.js"
 
 @customElement('chart')
 @inject(ModelObserver)

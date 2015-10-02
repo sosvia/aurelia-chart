@@ -1,4 +1,4 @@
-System.register(["aurelia-framework", "../observers/model-observer", "chartjs"], function (_export) {
+System.register(["aurelia-framework", "../observers/model-observer", "nnnick/Chart.js"], function (_export) {
   "use strict";
 
   var inject, customAttribute, useView, bindable, ModelObserver, Chart, ChartAttribute;
@@ -17,8 +17,8 @@ System.register(["aurelia-framework", "../observers/model-observer", "chartjs"],
       bindable = _aureliaFramework.bindable;
     }, function (_observersModelObserver) {
       ModelObserver = _observersModelObserver.ModelObserver;
-    }, function (_chartjs) {
-      Chart = _chartjs["default"];
+    }, function (_nnnickChartJs) {
+      Chart = _nnnickChartJs["default"];
     }],
     execute: function () {
       ChartAttribute = (function () {
