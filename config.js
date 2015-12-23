@@ -8,7 +8,7 @@ System.config({
 
   map: {
     "aurelia-framework": "github:aurelia/framework@0.16.0",
-    "nnnick/Chart.js": "github:nnnick/Chart.js@1.0.2",
+    "nnnick/Chart.js": "github:nnnick/Chart.js@v2.0-dev",
     "traceur": "github:jmcriffey/bower-traceur@0.0.91",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
     "github:aurelia/binding@0.9.1": {

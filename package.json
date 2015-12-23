@@ -49,7 +49,7 @@
     },
     "dependencies": {
       "aurelia-framework": "github:aurelia/framework@^0.16.0",
-      "nnnick/Chart.js": "github:nnnick/Chart.js@1.0.2"
+      "nnnick/Chart.js": "github:nnnick/Chart.js@v2.0-dev"
     },
     "devDependencies": {
       "traceur": "github:jmcriffey/bower-traceur@0.0.91",
