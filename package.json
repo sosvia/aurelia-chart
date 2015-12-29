@@ -55,16 +55,11 @@
       "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1",
       "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
       "aurelia-templating": "npm:aurelia-templating@^1.0.0-beta.1.0.2",
-      "nnnick/Chart.js": "github:nnnick/Chart.js@v2.0-dev"
+      "nnnick/Chart.js": "github:nnnick/Chart.js@^1.0.2"
     },
     "devDependencies": {
       "traceur": "github:jmcriffey/bower-traceur@0.0.93",
       "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
-    },
-    "overrides": {
-      "github:nnnick/Chart.js@v2.0-dev": {
-        "registry": "npm"
-      }
     }
   }
 }

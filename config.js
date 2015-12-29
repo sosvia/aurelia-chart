@@ -13,7 +13,7 @@ System.config({
     "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1",
     "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.0.2",
-    "nnnick/Chart.js": "github:nnnick/Chart.js@v2.0-dev",
+    "nnnick/Chart.js": "github:nnnick/Chart.js@1.0.2",
     "traceur": "github:jmcriffey/bower-traceur@0.0.93",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -27,13 +27,6 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
-    },
-    "github:nnnick/Chart.js@v2.0-dev": {
-      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "moment": "npm:moment@2.10.6",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
@@ -92,9 +85,6 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
-    },
-    "npm:moment@2.10.6": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
